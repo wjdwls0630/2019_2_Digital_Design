@@ -1,0 +1,37 @@
+# do univ_shift_reg_jin.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 07:58:41 on Nov 05,2019
+# vlog -work work univ_shift_reg_jin.vo 
+# -- Compiling module univ_shift_reg_jin
+# 
+# Top level modules:
+# 	univ_shift_reg_jin
+# End time: 07:58:41 on Nov 05,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 07:58:41 on Nov 05,2019
+# vlog -work work univ_shift_reg_jin.vwf.vt 
+# -- Compiling module univ_shift_reg_jin_vlg_vec_tst
+# 
+# Top level modules:
+# 	univ_shift_reg_jin_vlg_vec_tst
+# End time: 07:58:41 on Nov 05,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.univ_shift_reg_jin_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 07:58:41 on Nov 05,2019
+# Loading work.univ_shift_reg_jin_vlg_vec_tst
+# Loading work.univ_shift_reg_jin
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $finish    : univ_shift_reg_jin.vwf.vt(55)
+#    Time: 10480 ns  Iteration: 0  Instance: /univ_shift_reg_jin_vlg_vec_tst
+# End time: 07:58:41 on Nov 05,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1

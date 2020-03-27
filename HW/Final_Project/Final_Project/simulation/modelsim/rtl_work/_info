@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/parallels/Digital_Design/Final_Project/simulation/modelsim
+vCounter_1E6_ASM_v_jin
+Z1 !s110 1575631155
+!i10b 1
+!s100 HblMbJiidSQg8WjL3@LAi1
+I@h<2MB3NFM1>eb54D0eW;2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1575623980
+8/home/parallels/Digital_Design/Final_Project/Counter_1E6_ASM_v_jin.v
+F/home/parallels/Digital_Design/Final_Project/Counter_1E6_ASM_v_jin.v
+L0 1
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1575631155.000000
+!s107 /home/parallels/Digital_Design/Final_Project/Counter_1E6_ASM_v_jin.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/parallels/Digital_Design/Final_Project|/home/parallels/Digital_Design/Final_Project/Counter_1E6_ASM_v_jin.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+/home/parallels/Digital_Design/Final_Project
+n@counter_1@e6_@a@s@m_v_jin
+vLD_Driver_ASM_v_jin
+R1
+!i10b 1
+!s100 PbQcoh@L628hX??eKd9832
+IN?fPWazX[^H?;B[bVo5570
+R2
+R0
+w1575630379
+8/home/parallels/Digital_Design/Final_Project/LD_Driver_ASM_v_jin.v
+F/home/parallels/Digital_Design/Final_Project/LD_Driver_ASM_v_jin.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/parallels/Digital_Design/Final_Project/LD_Driver_ASM_v_jin.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/parallels/Digital_Design/Final_Project|/home/parallels/Digital_Design/Final_Project/LD_Driver_ASM_v_jin.v|
+!i113 1
+R5
+R6
+n@l@d_@driver_@a@s@m_v_jin
+vsti
+R1
+!i10b 1
+!s100 NQDHlzZBz?k:@Lo`D]W_R2
+I>ESI?QV@71D:SzEL@I>_e1
+R2
+R0
+w1575630422
+8/home/parallels/Digital_Design/Final_Project/sti.v
+F/home/parallels/Digital_Design/Final_Project/sti.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/parallels/Digital_Design/Final_Project/sti.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/parallels/Digital_Design/Final_Project|/home/parallels/Digital_Design/Final_Project/sti.v|
+!i113 1
+R5
+R6
+vtop
+R1
+!i10b 1
+!s100 ]ghiRQ7chAFRd0h8fbofi0
+InQU`_70gC4]z7LLQF>;Lh3
+R2
+R0
+w1575625272
+8/home/parallels/Digital_Design/Final_Project/top.v
+F/home/parallels/Digital_Design/Final_Project/top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/parallels/Digital_Design/Final_Project/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/parallels/Digital_Design/Final_Project|/home/parallels/Digital_Design/Final_Project/top.v|
+!i113 1
+R5
+R6

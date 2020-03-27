@@ -1,0 +1,123 @@
+# do LD_Driver_ASM_v_jin_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying /home/parallels/altera_lite/15.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/parallels/altera_lite/15.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+/home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin {/home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin/top.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:03:44 on Dec 01,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin" /home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin/top.v 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:03:44 on Dec 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin {/home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin/Counter_1E6_ASM_v_jin.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:03:44 on Dec 01,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin" /home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin/Counter_1E6_ASM_v_jin.v 
+# -- Compiling module Counter_1E6_ASM_v_jin
+# 
+# Top level modules:
+# 	Counter_1E6_ASM_v_jin
+# End time: 19:03:44 on Dec 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin {/home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin/LD_Driver_ASM_v_jin.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:03:44 on Dec 01,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin" /home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin/LD_Driver_ASM_v_jin.v 
+# -- Compiling module LD_Driver_ASM_v_jin
+# 
+# Top level modules:
+# 	LD_Driver_ASM_v_jin
+# End time: 19:03:44 on Dec 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin {/home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin/sti.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:03:44 on Dec 01,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin" /home/parallels/Digital_Design/Assignment_12/LD_Driver_ASM_v_jin/sti.v 
+# -- Compiling module sti
+# 
+# Top level modules:
+# 	sti
+# End time: 19:03:44 on Dec 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  sti
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" sti 
+# Start time: 19:03:44 on Dec 01,2019
+# Loading work.sti
+# Loading work.top
+# Loading work.Counter_1E6_ASM_v_jin
+# Loading work.LD_Driver_ASM_v_jin
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# I_out =    0, time = 0
+# I_out =    2, time = 10000035
+# 
+# stdin: <EOF>
+add wave -position end  sim:/sti/t1/C1/pstate
+add wave -position end  sim:/sti/t1/C1/nstate
+add wave -position 7  sim:/sti/t1/C1/A
+add wave -position 7  sim:/sti/t1/C1/C_out
+add wave -position 5  sim:/sti/t1/LD1/LD_ON_reg
+add wave -position 7  sim:/sti/t1/LD1/pstate
+add wave -position 8  sim:/sti/t1/LD1/nstate
+run
+run
+# I_out =    4, time = 20000045
+restart
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# I_out =    0, time = 0
+run
+# I_out =    2, time = 10000035
+run
+# I_out =    4, time = 20000045
+run
+# I_out =    6, time = 30000055
+run
+# I_out =    8, time = 40000065
+run
+# I_out =   10, time = 50000075
+run
+# I_out =   12, time = 60000085
+run
+# I_out =   14, time = 70000095
+run -all
+# I_out =   16, time = 80000105
+# I_out =   18, time = 90000115
+# I_out =   20, time = 100000125
+# I_out =   22, time = 110000135
+# I_out =   24, time = 120000145
+# I_out =   26, time = 130000155
+# I_out =   28, time = 140000165
+# I_out =   30, time = 150000175
+run -all
+# I_out =   32, time = 160000185
+# I_out =   34, time = 170000195
+# I_out =   36, time = 180000205
+# I_out =   38, time = 190000215
+# I_out =   40, time = 200000225
+# I_out =   42, time = 210000235
+# I_out =   44, time = 220000245
+# Break key hit
+# Simulation stop requested.
+# End time: 19:12:45 on Dec 01,2019, Elapsed time: 0:09:01
+# Errors: 0, Warnings: 2

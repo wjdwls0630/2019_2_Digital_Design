@@ -1,0 +1,404 @@
+$comment
+	File created using the following command:
+		vcd file univ_shift_reg_jin.msim.vcd -direction
+$end
+$date
+	Tue Nov  5 07:58:41 2019
+$end
+$version
+	ModelSim Version 10.4b
+$end
+$timescale
+	1ps
+$end
+
+$scope module univ_shift_reg_jin_vlg_vec_tst $end
+$var reg 1 ! Clk $end
+$var reg 1 " Clr $end
+$var reg 1 # Ltin $end
+$var reg 4 $ Pin [3:0] $end
+$var reg 1 % Rtin $end
+$var reg 2 & s [1:0] $end
+$var wire 1 ' Q [3] $end
+$var wire 1 ( Q [2] $end
+$var wire 1 ) Q [1] $end
+$var wire 1 * Q [0] $end
+
+$scope module i1 $end
+$var wire 1 + gnd $end
+$var wire 1 , vcc $end
+$var wire 1 - unknown $end
+$var tri1 1 . devclrn $end
+$var tri1 1 / devpor $end
+$var tri1 1 0 devoe $end
+$var wire 1 1 Q[0]~output_o $end
+$var wire 1 2 Q[1]~output_o $end
+$var wire 1 3 Q[2]~output_o $end
+$var wire 1 4 Q[3]~output_o $end
+$var wire 1 5 Clk~input_o $end
+$var wire 1 6 Clk~inputclkctrl_outclk $end
+$var wire 1 7 s[0]~input_o $end
+$var wire 1 8 Pin[0]~input_o $end
+$var wire 1 9 Ltin~input_o $end
+$var wire 1 : Q[0]~0_combout $end
+$var wire 1 ; Pin[1]~input_o $end
+$var wire 1 < Q[1]~1_combout $end
+$var wire 1 = Pin[2]~input_o $end
+$var wire 1 > Q[2]~2_combout $end
+$var wire 1 ? Pin[3]~input_o $end
+$var wire 1 @ Q[3]~3_combout $end
+$var wire 1 A Rtin~input_o $end
+$var wire 1 B Clr~input_o $end
+$var wire 1 C Clr~inputclkctrl_outclk $end
+$var wire 1 D s[1]~input_o $end
+$var wire 1 E Q[0]~4_combout $end
+$var wire 1 F Q[3]~reg0_q $end
+$var wire 1 G Q[2]~reg0_q $end
+$var wire 1 H Q[1]~reg0_q $end
+$var wire 1 I Q[0]~reg0_q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+b1010 $
+0%
+b0 &
+0*
+0)
+0(
+0'
+0+
+1,
+x-
+1.
+1/
+10
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+1;
+0<
+0=
+0>
+1?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+$end
+#320000
+1!
+15
+16
+#640000
+b1 &
+0!
+17
+05
+06
+1E
+1@
+1<
+#960000
+1!
+15
+16
+#1280000
+b11 &
+b10 &
+0!
+07
+1D
+05
+06
+0@
+0<
+#1600000
+1!
+15
+16
+#1920000
+b11 &
+0!
+17
+05
+06
+1@
+1<
+#2240000
+1!
+15
+16
+#2560000
+1"
+1%
+b1 &
+b0 &
+0!
+1B
+1A
+07
+0D
+05
+1C
+06
+0E
+0@
+0<
+#2880000
+1!
+15
+16
+#3200000
+b1 &
+0!
+17
+05
+06
+1E
+1@
+1<
+#3520000
+1!
+15
+16
+1F
+14
+1'
+#3840000
+b11 &
+b10 &
+0!
+07
+1D
+05
+06
+0@
+0<
+#4160000
+1!
+15
+16
+0F
+04
+0'
+#4480000
+b11 &
+0!
+17
+05
+06
+1@
+1<
+#4800000
+1!
+15
+16
+1H
+1F
+14
+12
+1)
+1'
+#5120000
+1#
+0%
+b1 &
+b0 &
+0!
+19
+0A
+07
+0D
+05
+06
+0E
+1:
+0@
+1>
+0<
+#5440000
+1!
+15
+16
+#5760000
+b1 &
+0!
+17
+05
+06
+1E
+1@
+0>
+1<
+0:
+#6080000
+1!
+15
+16
+1I
+0H
+1G
+0F
+04
+13
+02
+11
+1*
+0)
+1(
+0'
+#6400000
+b11 &
+b10 &
+0!
+07
+1D
+05
+06
+1:
+#6720000
+1!
+15
+16
+1H
+0G
+1F
+14
+03
+12
+1)
+0(
+1'
+1>
+0@
+#7040000
+b11 &
+0!
+17
+05
+06
+1@
+0>
+0:
+#7360000
+1!
+15
+16
+0I
+01
+0*
+#7680000
+1%
+b1 &
+b0 &
+0!
+1A
+07
+0D
+05
+06
+0E
+0@
+1>
+0<
+1:
+#8000000
+1!
+15
+16
+#8320000
+b1 &
+0!
+17
+05
+06
+1E
+1@
+0>
+1<
+0:
+#8640000
+1!
+15
+16
+1I
+0H
+1G
+13
+02
+11
+1*
+0)
+1(
+#8960000
+b11 &
+b10 &
+0!
+07
+1D
+05
+06
+1:
+#9280000
+1!
+15
+16
+1H
+0G
+03
+12
+1)
+0(
+1>
+0@
+#9600000
+b11 &
+0!
+17
+05
+06
+1@
+0>
+0:
+#9920000
+1!
+15
+16
+0I
+01
+0*
+#10240000
+0#
+0%
+b1 &
+b0 &
+0!
+09
+0A
+07
+0D
+05
+06
+0E
+0@
+1>
+0<
+#10480000

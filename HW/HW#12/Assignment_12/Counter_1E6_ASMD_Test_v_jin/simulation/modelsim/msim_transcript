@@ -1,0 +1,84 @@
+# do Counter_1E6_ASMD_Test_v_jin_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying /home/parallels/altera_lite/15.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/parallels/altera_lite/15.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+/home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASMD_Test_v_jin {/home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASMD_Test_v_jin/Counter_1E6_ASMD_Test_v_jin.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:16:57 on Nov 26,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASMD_Test_v_jin" /home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASMD_Test_v_jin/Counter_1E6_ASMD_Test_v_jin.v 
+# -- Compiling module Counter_1E6_ASMD_Test_v_jin
+# 
+# Top level modules:
+# 	Counter_1E6_ASMD_Test_v_jin
+# End time: 11:16:57 on Nov 26,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASMD_Test_v_jin {/home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASMD_Test_v_jin/Counter_1E6_ASMD_Test_v_tb_jin.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:16:57 on Nov 26,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASMD_Test_v_jin" /home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASMD_Test_v_jin/Counter_1E6_ASMD_Test_v_tb_jin.v 
+# -- Compiling module Counter_1E6_ASMD_Test_v_tb_jin
+# 
+# Top level modules:
+# 	Counter_1E6_ASMD_Test_v_tb_jin
+# End time: 11:16:57 on Nov 26,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Counter_1E6_ASMD_Test_v_tb_jin
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Counter_1E6_ASMD_Test_v_tb_jin 
+# Start time: 11:16:57 on Nov 26,2019
+# Loading work.Counter_1E6_ASMD_Test_v_tb_jin
+# Loading work.Counter_1E6_ASMD_Test_v_jin
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# C_out = 0, time = 0
+# C_out = 1, time = 10000025
+# C_out = 0, time = 10000035
+# C_out = 1, time = 20000025
+# C_out = 0, time = 20000035
+# C_out = 1, time = 30000025
+# C_out = 0, time = 30000035
+# C_out = 1, time = 47000025
+# C_out = 0, time = 47000035
+# ** Note: $finish    : /home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASMD_Test_v_jin/Counter_1E6_ASMD_Test_v_tb_jin.v(11)
+#    Time: 50 ms  Iteration: 0  Instance: /Counter_1E6_ASMD_Test_v_tb_jin
+# 1
+# Break in Module Counter_1E6_ASMD_Test_v_tb_jin at /home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASMD_Test_v_jin/Counter_1E6_ASMD_Test_v_tb_jin.v line 11
+# 
+# stdin: <EOF>
+add wave -position end  sim:/Counter_1E6_ASMD_Test_v_tb_jin/ct1/A
+add wave -position end  sim:/Counter_1E6_ASMD_Test_v_tb_jin/ct1/pstate
+add wave -position end  sim:/Counter_1E6_ASMD_Test_v_tb_jin/ct1/nstate
+restart -f
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# C_out = 0, time = 0
+# C_out = 1, time = 10000025
+# C_out = 0, time = 10000035
+# C_out = 1, time = 20000025
+# C_out = 0, time = 20000035
+# C_out = 1, time = 30000025
+# C_out = 0, time = 30000035
+# C_out = 1, time = 47000025
+# C_out = 0, time = 47000035
+# ** Note: $finish    : /home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASMD_Test_v_jin/Counter_1E6_ASMD_Test_v_tb_jin.v(11)
+#    Time: 50 ms  Iteration: 0  Instance: /Counter_1E6_ASMD_Test_v_tb_jin
+# 1
+# Break in Module Counter_1E6_ASMD_Test_v_tb_jin at /home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASMD_Test_v_jin/Counter_1E6_ASMD_Test_v_tb_jin.v line 11
+# End time: 11:22:51 on Nov 26,2019, Elapsed time: 0:05:54
+# Errors: 0, Warnings: 2

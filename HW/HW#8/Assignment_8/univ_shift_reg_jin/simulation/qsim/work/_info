@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/parallels/Digital_Design/Assignment_8/univ_shift_reg_jin/simulation/qsim
+vuniv_shift_reg_jin
+Z1 !s110 1572969521
+!i10b 1
+!s100 kaaPX8R4U15X_ZRM2]2NK1
+IXzP]mmG6oY9?BZ73=f5mg0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1572969521
+8univ_shift_reg_jin.vo
+Funiv_shift_reg_jin.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1572969521.000000
+!s107 univ_shift_reg_jin.vo|
+!s90 -work|work|univ_shift_reg_jin.vo|
+!i113 1
+Z5 o-work work
+vuniv_shift_reg_jin_vlg_vec_tst
+R1
+!i10b 1
+!s100 7gz;2>ikL3PQUc=Jn;5oB2
+I;6325g3l@idob<8bnD[Ih2
+R2
+R0
+w1572969515
+8univ_shift_reg_jin.vwf.vt
+Funiv_shift_reg_jin.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 univ_shift_reg_jin.vwf.vt|
+!s90 -work|work|univ_shift_reg_jin.vwf.vt|
+!i113 1
+R5

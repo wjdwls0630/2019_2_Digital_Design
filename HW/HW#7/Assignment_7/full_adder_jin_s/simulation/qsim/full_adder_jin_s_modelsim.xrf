@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, /home/parallels/Digital_Design/Assignment_7/half_adder_jin_s/half_adder_jin_s.bdf
+source_file = 1, /home/parallels/Digital_Design/Assignment_7/full_adder_jin_s/full_adder_jin_s.bdf
+source_file = 1, /home/parallels/Digital_Design/Assignment_7/full_adder_jin_s/full_adder_jin_s.vwf
+source_file = 1, /home/parallels/Digital_Design/Assignment_7/full_adder_jin_s/db/full_adder_jin_s.cbx.xml
+design_name = full_adder_jin_s
+instance = comp, \S~output , S~output, full_adder_jin_s, 1
+instance = comp, \C_out~output , C_out~output, full_adder_jin_s, 1
+instance = comp, \A0~input , A0~input, full_adder_jin_s, 1
+instance = comp, \C_in~input , C_in~input, full_adder_jin_s, 1
+instance = comp, \A1~input , A1~input, full_adder_jin_s, 1
+instance = comp, \inst1|inst~0 , inst1|inst~0, full_adder_jin_s, 1
+instance = comp, \inst2~0 , inst2~0, full_adder_jin_s, 1

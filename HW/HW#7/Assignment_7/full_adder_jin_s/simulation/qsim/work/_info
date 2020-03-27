@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/parallels/Digital_Design/Assignment_7/full_adder_jin_s/simulation/qsim
+vfull_adder_jin_s
+Z1 !s110 1572941211
+!i10b 1
+!s100 l_jYI8Z`YZjaF7;il7S5R0
+In<C4i`=3]4g@_O<`VgQhC0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1572941209
+8full_adder_jin_s.vo
+Ffull_adder_jin_s.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1572941210.000000
+!s107 full_adder_jin_s.vo|
+!s90 -work|work|full_adder_jin_s.vo|
+!i113 1
+Z4 o-work work
+vfull_adder_jin_s_vlg_vec_tst
+R1
+!i10b 1
+!s100 DZQWjBn`<@lCJWDog`IhI1
+Io_B]d3Z;12kz<ogPfMBcY0
+R2
+R0
+w1572941204
+8full_adder_jin_s.vwf.vt
+Ffull_adder_jin_s.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1572941211.000000
+!s107 full_adder_jin_s.vwf.vt|
+!s90 -work|work|full_adder_jin_s.vwf.vt|
+!i113 1
+R4

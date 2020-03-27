@@ -1,0 +1,48 @@
+# do LD_Driver_v_jin_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying /home/parallels/altera_lite/15.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/parallels/altera_lite/15.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin {/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/LD_Driver_v_jin.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 13:26:10 on Nov 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin" /home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/LD_Driver_v_jin.v 
+# -- Compiling module LD_Driver_v_jin
+# 
+# Top level modules:
+# 	LD_Driver_v_jin
+# End time: 13:26:10 on Nov 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin {/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/LD_Driver_v_tb_jin.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 13:26:10 on Nov 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin" /home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/LD_Driver_v_tb_jin.v 
+# -- Compiling module LD_Driver_v_tb_jin
+# 
+# Top level modules:
+# 	LD_Driver_v_tb_jin
+# End time: 13:26:10 on Nov 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  LD_Driver_v_tb_jin
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" LD_Driver_v_tb_jin 
+# Start time: 13:26:10 on Nov 19,2019
+# Loading work.LD_Driver_v_tb_jin
+# Loading work.LD_Driver_v_jin
+# ** Error (suppressible): (vsim-3053) /home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/LD_Driver_v_tb_jin.v(21): Illegal output or inout port connection for port 'I_out'.
+#    Time: 0 ps  Iteration: 0  Instance: /LD_Driver_v_tb_jin/UUT File: /home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/LD_Driver_v_jin.v
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./LD_Driver_v_jin_run_msim_rtl_verilog.do PAUSED at line 12
+# End time: 13:29:54 on Nov 19,2019, Elapsed time: 0:03:44
+# Errors: 1, Warnings: 0

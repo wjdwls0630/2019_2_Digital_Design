@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/simulation/modelsim
+vLD_Driver_v_jin
+Z1 !s110 1574137570
+!i10b 1
+!s100 GzhVlE:n=ENN4YYMZGLHc1
+I9B=n^IB<1z=fib82=^Vl_0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1574094792
+8/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/LD_Driver_v_jin.v
+F/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/LD_Driver_v_jin.v
+L0 1
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1574137570.000000
+!s107 /home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/LD_Driver_v_jin.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin|/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/LD_Driver_v_jin.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin
+n@l@d_@driver_v_jin
+vLD_Driver_v_tb_jin
+R1
+!i10b 1
+!s100 4128mK@DW:dmB_kbGCoQC3
+IXzSd@2X2RW>oBQ@LIll@03
+R2
+R0
+w1574137187
+8/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/LD_Driver_v_tb_jin.v
+F/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/LD_Driver_v_tb_jin.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/LD_Driver_v_tb_jin.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin|/home/parallels/Digital_Design/Assignment_10/LD_Driver_v_jin/LD_Driver_v_tb_jin.v|
+!i113 1
+R5
+R6
+n@l@d_@driver_v_tb_jin

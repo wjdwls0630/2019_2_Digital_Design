@@ -1,0 +1,32 @@
+# do adder_4b_jin_s.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 00:46:01 on Nov 05,2019
+# vlog -work work adder_4b_jin_s.vo 
+# -- Compiling module adder_4b_jin_s
+# 
+# Top level modules:
+# 	adder_4b_jin_s
+# End time: 00:46:01 on Nov 05,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 00:46:01 on Nov 05,2019
+# vlog -work work adder_4b_jin_s.vwf.vt 
+# -- Compiling module adder_4b_jin_s_vlg_vec_tst
+# 
+# Top level modules:
+# 	adder_4b_jin_s_vlg_vec_tst
+# End time: 00:46:01 on Nov 05,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.adder_4b_jin_s_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 00:46:01 on Nov 05,2019
+# Loading work.adder_4b_jin_s_vlg_vec_tst
+# Loading work.adder_4b_jin_s
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $finish    : adder_4b_jin_s.vwf.vt(51)
+#    Time: 25600 ns  Iteration: 0  Instance: /adder_4b_jin_s_vlg_vec_tst
+# End time: 00:46:01 on Nov 05,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1

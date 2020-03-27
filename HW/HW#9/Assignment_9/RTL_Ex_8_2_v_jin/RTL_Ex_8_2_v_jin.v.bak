@@ -1,0 +1,53 @@
+module RTL_Ex_8_2_v_jin(
+   output reg E, F;
+   output [4:1] A;
+   input S, CLK, Clrn;
+   );
+   //specify system registers
+   reg [1:0] pstate, nstate; //control register
+   //Encode the states
+   parameter T0 = 2'b00, T1 = 2'b01, T2 = 2'b01;
+   //state transition for control 
+   always @(posedge CLk, negedge Clrn) begin
+	  if(~Clrn) pstate = T0; //initial state
+	  else pstate <= nstate; //colcked operations
+   end 
+
+   always @(S, A, pstate) begin
+	  case(pstate)
+		 T0: 
+			begin
+			   if(S) begin
+				  nstate = T1;
+			   end
+			end 
+		 T1: 
+		    begin  
+			   if(A[3]) begin
+				  E = 1'b1;
+				  if(A[4]) begin
+					 nstate = T2;
+				  end
+				  else begin
+					 nstate = T1;
+				  end 
+			end
+		 T2:
+			begin
+			   F=1'b1;
+			   nstate=T0
+			end
+	  endcase
+   end
+endmodule
+			   
+			  
+			 
+			
+
+
+
+
+
+   
+

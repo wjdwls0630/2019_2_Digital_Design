@@ -1,0 +1,145 @@
+# do Counter_1E6_ASM_Test_v_jin_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying /home/parallels/altera_lite/15.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/parallels/altera_lite/15.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+/home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASM_Test_v_jin {/home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASM_Test_v_jin/Counter_1E6_ASM_Test_v_jin.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 23:54:31 on Nov 25,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASM_Test_v_jin" /home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASM_Test_v_jin/Counter_1E6_ASM_Test_v_jin.v 
+# -- Compiling module Counter_1E6_ASM_Test_v_jin
+# 
+# Top level modules:
+# 	Counter_1E6_ASM_Test_v_jin
+# End time: 23:54:31 on Nov 25,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASM_Test_v_jin {/home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASM_Test_v_jin/Counter_1E6_ASM_Test_v_tb_jin.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 23:54:31 on Nov 25,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASM_Test_v_jin" /home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASM_Test_v_jin/Counter_1E6_ASM_Test_v_tb_jin.v 
+# -- Compiling module Counter_1E6_ASM_Test_v_tb_jin
+# 
+# Top level modules:
+# 	Counter_1E6_ASM_Test_v_tb_jin
+# End time: 23:54:32 on Nov 25,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Counter_1E6_ASM_Test_v_tb_jin
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Counter_1E6_ASM_Test_v_tb_jin 
+# Start time: 23:54:32 on Nov 25,2019
+# Loading work.Counter_1E6_ASM_Test_v_tb_jin
+# Loading work.Counter_1E6_ASM_Test_v_jin
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# C_out = 0, time = 0
+# C_out = 1, time = 10000025
+# C_out = 0, time = 10000035
+# C_out = 1, time = 20000025
+# C_out = 0, time = 20000035
+# C_out = 1, time = 30000025
+# C_out = 0, time = 30000035
+# C_out = 1, time = 47000025
+# C_out = 0, time = 47000035
+# ** Note: $finish    : /home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASM_Test_v_jin/Counter_1E6_ASM_Test_v_tb_jin.v(11)
+#    Time: 50 ms  Iteration: 0  Instance: /Counter_1E6_ASM_Test_v_tb_jin
+# 1
+# Break in Module Counter_1E6_ASM_Test_v_tb_jin at /home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASM_Test_v_jin/Counter_1E6_ASM_Test_v_tb_jin.v line 11
+# 
+# stdin: <EOF>
+add wave -position end  sim:/Counter_1E6_ASM_Test_v_tb_jin/ct1/A
+add wave -position end  sim:/Counter_1E6_ASM_Test_v_tb_jin/ct1/pstate
+add wave -position end  sim:/Counter_1E6_ASM_Test_v_tb_jin/ct1/nstate
+run -all
+# C_out = 1, time = 57000025
+# C_out = 0, time = 57000035
+# C_out = 1, time = 67000025
+# C_out = 0, time = 67000035
+# C_out = 1, time = 77000025
+# C_out = 0, time = 77000035
+# C_out = 1, time = 87000025
+# C_out = 0, time = 87000035
+# C_out = 1, time = 97000025
+# C_out = 0, time = 97000035
+# C_out = 1, time = 107000025
+# C_out = 0, time = 107000035
+# C_out = 1, time = 117000025
+# C_out = 0, time = 117000035
+# C_out = 1, time = 127000025
+# C_out = 0, time = 127000035
+# C_out = 1, time = 137000025
+# C_out = 0, time = 137000035
+# C_out = 1, time = 147000025
+# C_out = 0, time = 147000035
+# C_out = 1, time = 157000025
+# C_out = 0, time = 157000035
+# C_out = 1, time = 167000025
+# C_out = 0, time = 167000035
+# C_out = 1, time = 177000025
+# C_out = 0, time = 177000035
+# C_out = 1, time = 187000025
+# C_out = 0, time = 187000035
+# C_out = 1, time = 197000025
+# C_out = 0, time = 197000035
+# C_out = 1, time = 207000025
+# C_out = 0, time = 207000035
+# C_out = 1, time = 217000025
+# C_out = 0, time = 217000035
+# C_out = 1, time = 227000025
+# C_out = 0, time = 227000035
+# C_out = 1, time = 237000025
+# C_out = 0, time = 237000035
+# C_out = 1, time = 247000025
+# C_out = 0, time = 247000035
+# C_out = 1, time = 257000025
+# C_out = 0, time = 257000035
+# C_out = 1, time = 267000025
+# C_out = 0, time = 267000035
+# C_out = 1, time = 277000025
+# C_out = 0, time = 277000035
+# C_out = 1, time = 287000025
+# C_out = 0, time = 287000035
+# C_out = 1, time = 297000025
+# C_out = 0, time = 297000035
+# C_out = 1, time = 307000025
+# C_out = 0, time = 307000035
+# C_out = 1, time = 317000025
+# C_out = 0, time = 317000035
+# C_out = 1, time = 327000025
+# C_out = 0, time = 327000035
+restart -f
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# C_out = 0, time = 0
+run
+# C_out = 1, time = 10000025
+# C_out = 0, time = 10000035
+run
+# C_out = 1, time = 20000025
+# C_out = 0, time = 20000035
+run
+# C_out = 1, time = 30000025
+# C_out = 0, time = 30000035
+run
+# C_out = 1, time = 47000025
+# C_out = 0, time = 47000035
+# ** Note: $finish    : /home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASM_Test_v_jin/Counter_1E6_ASM_Test_v_tb_jin.v(11)
+#    Time: 50 ms  Iteration: 0  Instance: /Counter_1E6_ASM_Test_v_tb_jin
+# 1
+# Break in Module Counter_1E6_ASM_Test_v_tb_jin at /home/parallels/Digital_Design/Assignment_12/Counter_1E6_ASM_Test_v_jin/Counter_1E6_ASM_Test_v_tb_jin.v line 11
+# End time: 00:12:20 on Nov 26,2019, Elapsed time: 0:17:48
+# Errors: 0, Warnings: 2

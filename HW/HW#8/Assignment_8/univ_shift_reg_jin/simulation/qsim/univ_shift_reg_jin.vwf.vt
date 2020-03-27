@@ -1,0 +1,139 @@
+// Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "11/05/2019 07:58:35"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          univ_shift_reg_jin
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module univ_shift_reg_jin_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg Clk;
+reg Clr;
+reg Ltin;
+reg [3:0] Pin;
+reg Rtin;
+reg [1:0] s;
+// wires                                               
+wire [3:0] Q;
+
+// assign statements (if any)                          
+univ_shift_reg_jin i1 (
+// port map - connection between master ports and signals/registers   
+	.Clk(Clk),
+	.Clr(Clr),
+	.Ltin(Ltin),
+	.Pin(Pin),
+	.Q(Q),
+	.Rtin(Rtin),
+	.s(s)
+);
+initial 
+begin 
+#10480000 $finish;
+end 
+
+// Clk
+initial
+begin
+	repeat(16)
+	begin
+		Clk = 1'b0;
+		Clk = #320000 1'b1;
+		# 320000;
+	end
+	Clk = 1'b0;
+end 
+
+// Clr
+initial
+begin
+	Clr = 1'b0;
+	Clr = #2560000 1'b1;
+end 
+// s[ 1 ]
+initial
+begin
+	repeat(4)
+	begin
+		s[1] = 1'b0;
+		s[1] = #1280000 1'b1;
+		# 1280000;
+	end
+	s[1] = 1'b0;
+end 
+// s[ 0 ]
+initial
+begin
+	repeat(8)
+	begin
+		s[0] = 1'b0;
+		s[0] = #640000 1'b1;
+		# 640000;
+	end
+	s[0] = 1'b0;
+end 
+
+// Ltin
+initial
+begin
+	Ltin = 1'b0;
+	Ltin = #5120000 1'b1;
+	Ltin = #5120000 1'b0;
+end 
+
+// Rtin
+initial
+begin
+	repeat(2)
+	begin
+		Rtin = 1'b0;
+		Rtin = #2560000 1'b1;
+		# 2560000;
+	end
+	Rtin = 1'b0;
+end 
+// Pin[ 3 ]
+initial
+begin
+	Pin[3] = 1'b1;
+end 
+// Pin[ 2 ]
+initial
+begin
+	Pin[2] = 1'b0;
+end 
+// Pin[ 1 ]
+initial
+begin
+	Pin[1] = 1'b1;
+end 
+// Pin[ 0 ]
+initial
+begin
+	Pin[0] = 1'b0;
+end 
+endmodule
+
